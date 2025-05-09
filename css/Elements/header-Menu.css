@@ -1,0 +1,18 @@
+.submenu-item{
+    color: var(--colorWhite);
+
+}
+
+@media (width <= 700px) {
+
+.menu {
+    z-index: 999;
+    top: 90px!important;
+    width: 35%;
+    right: 0;
+}
+.submenu{
+    left:0;
+    width:100%;
+}
+}

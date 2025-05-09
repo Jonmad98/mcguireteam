@@ -1,0 +1,90 @@
+/*Ylopo*/
+/*property listed time*/
+.YLOPO-widget .gallery-card-b .gallery-card-b-main-card .gallery-card-b-details-container>.property-details-wrap{
+    display: none;
+
+}
+
+/*property listed description*/
+.YLOPO-widget .gallery-card-b .gallery-card-b-summary-details .summary-info{
+    padding: 10px;
+}
+
+/*property listed description box*/
+.YLOPO-widget .gallery-card-b .gallery-card-b-summary-details .summary-info .info-block{
+    border-left:1px solid var(--colorGold);
+}
+
+/*property address box*/
+.YLOPO-widget .gallery-card-b .gallery-card-b-summary-details .gallery-card-b-address-block{
+    border-top: 1px solid var(--colorGold);
+    border-bottom: 1px solid var(--colorGold);
+}
+
+/*property item border*/
+.YLOPO-widget .gallery-card-b .gallery-card-b-main-card{
+    border: 1px solid var(--colorGold);
+}
+
+/*property summary box*/
+.YLOPO-widget .gallery-card-b .gallery-card-b-summary-details{
+    border: 1px solid var(--colorGold);
+}
+
+
+.YLOPO-widget div .layout div{
+    line-height: 20px;
+    color: var(--colorGold);
+    font-weight: bold;
+
+}
+
+.YLOPO-widget .gallery-card-b .gallery-card-b-summary-details .summary-info .info-block span.label{
+    color: var(--colorGold);
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.YLOPO-widget .gallery-card-b .gallery-card-b-summary-details span{
+    font-weight: 700;
+    color: var(--colorAsh);
+}
+
+.YLOPO-widget .gallery-card-b .gallery-card-b-main-card,.YLOPO-widget div .gallery-card-b-details-container{
+    background-color: var(--colorWhite);
+}
+
+.home .YLOPO_resultsWidget .YLOPO-widget .widget-gallery-container{
+    flex-wrap: nowrap!important;
+}
+
+
+.YLOPO-widget .grouped-location-autocomplete .grouped-location-autocomplete-input input {
+    font-size:14px;
+}
+
+
+.YLOPO-widget .grouped-location-autocomplete .grouped-location-autocomplete-input:before{
+    color: var(--colorGold);
+}
+
+
+/************************HomeBOT***************************/
+
+#homebot_homeowner .hblgw .__hblgw--widget-container .__hblgw--logo-message_small{
+    display: none;
+}
+
+.__hblgw--widget-container {
+    padding: 0;
+}
+
+
+/*************Wordpress***********/
+.my-calendar-navigation {
+    display: none!important;
+}
+
+.page-template-default .banner-principal{
+    display: none;
+}

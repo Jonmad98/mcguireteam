@@ -1,0 +1,179 @@
+.contactInfo{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 5rem;
+    letter-spacing: .2rem;
+}
+.contactHeader{
+    color: var(--colorGold);
+    font-family: 'Rufina', serif;
+    
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 1em;
+}
+
+.contactContent{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.subcontent-item{
+    margin: 2.5rem 2rem;
+    width: 18rem;
+    padding-left: 3rem;
+}
+
+.subcontent-header{
+    font-size: 20px;
+    color: var(--colorGold);
+    font-weight: 600;
+    margin: .8em 0;
+    text-align: center;
+}
+
+.subcontent-text{
+    font-size: 18px;
+    letter-spacing: .1rem;
+}
+
+.email:hover, .phone:hover {
+    color: var(--colorGold);
+}
+
+/********************Let's Talk**********************/
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    color: var(--colorWhite);
+    background-color: var(--colorAsh);
+    justify-content: center;
+    padding: 60px 125px;
+    font-size: 15px;
+}
+.formHeader{
+    font-family: 'Rufina', serif;
+    font-size: 30px;
+    margin-bottom: 2rem;
+
+}
+.form-section{
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.formCont{
+    justify-content: space-between;
+    gap:20px;
+}
+.form{
+    max-width: 550px;
+    max-height: 550px;
+    margin-left: 0px;
+}
+.form-content{
+    display: flex;
+    margin: .5rem 0;
+}
+
+.formMap{
+    height:550px;
+    width:600px;
+}
+
+.form-lName{
+    margin-left: .8rem ;
+}
+
+.required{
+    font-size: 10px;
+    
+}
+
+.name-input{
+    width: 12rem;
+}
+
+.form-input{
+    
+    width: 25rem;
+}
+
+.form-message{
+    width: 25rem;
+    height: 5rem;
+}
+.form-submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8.29rem;
+    height: 2.49rem;
+    color: var(--colorGold);
+    background-color: transparent;
+    border: solid 1px var(--colorGold);
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-align: center;
+    margin: 2rem;
+}
+
+@media only screen and (max-width:700px){
+    .contactInfo{
+        padding: 1rem 2rem;
+    }
+    
+    .contactContent{
+        flex-direction: column;
+    }
+    .contactHeader{
+        font-size: 20px;
+    }
+    .subcontent-item{
+        text-align: center;
+        margin: 1rem 0;
+        padding: 0;
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .subcontent-header{
+        font-size: 15px;
+    }
+    .subcontent-text, .phone, .email{
+        font-size: 13px;
+    }
+    /*********************************/
+    .contactForm{
+        padding: 1rem;
+        
+    }
+    
+    .formCont{
+        flex-direction: column;
+    }
+    .formHeader{
+        font-size: 20px;
+    }
+
+    .form-text{
+        font-size: 15px!important;
+    }
+    .form-content{
+        margin: 0;
+    }
+    .form-name{
+        flex-direction: column;
+    }
+    .name-input{
+        height: 50%;
+        margin-bottom: 1rem;
+    }
+
+
+}

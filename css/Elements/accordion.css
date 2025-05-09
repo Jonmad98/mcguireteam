@@ -1,0 +1,50 @@
+
+  
+    
+.details-wrapper {
+    max-width: 90%;
+    margin: 10px;
+}
+    
+details {
+    margin-bottom: 10px;
+    transition: all 0.3s;
+    transition-timing-function: linear;
+    overflow: hidden;
+    border: 1px solid var(--colorGold);
+    }
+    
+    summary {
+        position: relative;
+        margin-bottom: 0;
+        font-size: 18px;
+        padding: 15px 20px;
+        list-style: none;
+        color: var(--colorGold);
+        font-weight: bold;
+    }
+    summary:hover{
+        background-color: var(--colorGold);
+        color: var(--colorWhite);
+    }
+    
+    .accourdionContent {
+        padding: 0 20px 15px;
+      }
+    
+      .accourdionContent p{
+        font-size: 16px;
+  
+      }
+    
+      .accourdionContent:hover {
+          cursor: pointer;
+      }
+    
+
+@media (width <= 700px) {
+    .details-wrapper{
+        width: 90%;
+    }
+}
+

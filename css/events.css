@@ -1,0 +1,23 @@
+.ocEventSchedule ul{
+    margin-left: 10px;
+}
+
+.ocEventLoc, .ocEventSchedule{
+    margin-top: 15px;
+}
+
+.ocEventBtn{
+    margin-top: 30px;
+}
+
+.ocEventMap{
+    max-width: 450px;
+}
+
+.ocEvent{
+    padding: 0 5%;
+}
+
+.listado-articulos .mc-host-card{
+    display: none;
+}

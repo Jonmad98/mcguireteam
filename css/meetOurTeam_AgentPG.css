@@ -1,0 +1,86 @@
+.agntList ul{
+    padding:  10px 30px;
+}
+
+.agntList li{
+    list-style:disc;
+}
+
+.agntList li::marker{
+    color:#c9a14f;
+}
+
+.quote{
+    border-top: 2px solid var(--colorGold);
+    border-bottom: 2px solid var(--colorGold);
+    padding: 10px 0;
+}
+
+.quote p{
+    line-height: 2.5;
+    font-style: italic;
+}
+
+.agentBanCont{
+    margin: 0 16px;
+}
+
+.agentHeader{
+    margin-bottom: 15px;;
+}
+
+.agentBanContCen{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgba(11, 13, 14, .9);
+    padding: 2%;
+    height: 100%;
+    width: 800px;
+}
+
+.agentHeader,.agentInfo a{
+    color: var(--colorWhite);
+}
+
+.agentBanContCen .agentImg{
+    width: 300px;
+    height: 85%;
+    overflow: hidden;
+}
+
+.agentBanContCen .agentImg img{
+    height: 100%;
+
+}
+
+.agentHeroCenter {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+  }
+
+@media (width <= 700px) {
+    /*.containerCUF .p2Columns{
+        width: 100%;
+    }*/
+
+    .agentHeroCenter{
+        height: 800px;
+    }
+    .agentBanContCen{
+        margin: 0 18px;
+        gap: 0;
+        align-content: center;
+    }
+    
+
+    .agentBanContCen .agentImg{
+        height: 40%;
+        align-items: center;
+    }
+}

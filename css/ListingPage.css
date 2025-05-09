@@ -1,0 +1,302 @@
+
+
+.listRiverStHero{
+    background:url('https://mcguireteam.com/wp-content/uploads/2024/09/6-Riverstone-Banner.webp') no-repeat center center;
+    background-size: cover;
+}
+
+.list40WestGate{
+    background:url('https://mcguireteam.com/wp-content/uploads/2024/10/40-Westgate-banner-1.webp') no-repeat center center;
+    background-size: cover;
+}
+
+.listBlueLagHero{
+    background:url('https://mcguireteam.com/wp-content/uploads/2024/10/99-print-89-Blue-Lagoon-DAY-NEW-29.png-EDIT-1.png') no-repeat center center;
+    background-size: cover;
+}
+
+.listElmwood{
+    background:url('https://mcguireteam.com/wp-content/uploads/2024/11/3_Elmwood_banner.webp') no-repeat center center;
+    background-size: cover;
+}
+
+.listApache{
+    background:url('https://mcguireteam.com/wp-content/uploads/2025/01/34-Apache-Dr-Twilight-Banner.webp') no-repeat center center;
+    background-size: cover;
+}
+
+
+.listCollins{
+    background:url('https://mcguireteam.com/wp-content/uploads/2025/02/308-Collins-Ave-Banner.webp') no-repeat center center;
+    background-size: cover;
+}
+
+.listApplewood14{
+    background:url('https://mcguireteam.com/wp-content/uploads/2025/01/Untitled-design-20.webp') no-repeat center center;
+    background-size: cover;
+}
+
+.listMaplewood36{
+    background:url('https://mcguireteam.com/wp-content/uploads/2025/02/18631-Maplewood-Cir-Banner.webp') no-repeat center center;
+    background-size: cover;
+}
+
+.list34236CEMHero{
+    background:url('https://mcguireteam.com/wp-content/uploads/2025/04/2439-N-Mountain-Ave-Banner.webp') no-repeat center center;
+    background-size: cover;
+}
+
+.list13Summerview{
+    background: url('https://mcguireteam.com/wp-content/uploads/2025/04/13-Summerside-TWILIGHT-14-Banner.jpg')  no-repeat center center;
+    background-size: cover;
+}
+
+.list20Coronado{
+    background: url('https://mcguireteam.com/wp-content/uploads/2025/04/20-Coronado-Pointe-Banner.webp')  no-repeat center center;
+    background-size: cover;
+}
+
+@media (width <= 900px) {
+    .list40WestGate{
+        background:url('https://mcguireteam.com/wp-content/uploads/2024/10/40-Westgate-banner-mobile-1.webp') no-repeat center center;
+        background-size: cover;
+    }
+    
+    .listBlueLagHero{
+        background:url('https://mcguireteam.com/wp-content/uploads/2024/10/89-Blue-Lagoon-Banner-mobile.webp') no-repeat center center;
+        background-size: cover;
+    }
+    
+    .listElmwood{
+    background:url('https://mcguireteam.com/wp-content/uploads/2024/11/3_Elmwood_banner_mobile.webp') no-repeat center center;
+    background-size: cover;
+    }
+    
+    .listCollins{
+    background:url('https://mcguireteam.com/wp-content/uploads/2025/02/308-Collins-Ave-Banner-mobile.webp') no-repeat center center;
+    background-size: cover;
+    }
+    
+    .listApache{
+    background:url('https://mcguireteam.com/wp-content/uploads/2025/01/34-Apache-Dr-Twilight-Mobile-Banner.webp') no-repeat center center;
+    background-size: cover;
+    }
+    .listMaplewood36{
+    background:url('https://mcguireteam.com/wp-content/uploads/2025/02/18631-Maplewood-Cir-Mobile-Banner.webp') no-repeat center center;
+    background-size: cover;
+    }
+    .list34236CEMHero{
+    background:url('https://mcguireteam.com/wp-content/uploads/2025/04/2439-N-Mountain-Ave-Banner-Mobile.webp') no-repeat center center;
+    background-size: cover;
+    }
+    
+    .list13Summerview{
+    background: url('https://mcguireteam.com/wp-content/uploads/2025/04/13-Summerside-TWILIGHT-14-Banner.jpg')  no-repeat center center;
+    background-size: cover;
+    }
+    
+    .list20Coronado{
+    background: url('https://mcguireteam.com/wp-content/uploads/2025/04/20-Coronado-Pointe-Banner-Mobile.jpg')  no-repeat center center;
+    background-size: cover;
+}
+}
+
+
+
+/*************************Open House****************************************/
+
+.line{
+  color: var(--colorAsh);
+  height: 1px;
+}
+
+.openHouse{
+  display: flex;
+}
+
+.OHtitle{
+  text-align:center;
+  padding:10px;
+  color:var(--colorGold);
+  font-size: 40px;
+  width: 100%;
+}
+.OHSaturday{
+  width: 50%;
+}
+.OHSunday{
+  width: 50%;
+}
+.ohEvent{
+  display:flex;
+  margin-top:15px;
+  align-items: center;
+  justify-content: center;
+}
+.day{
+  color:var(--colorGold);
+  text-align: center;
+  font-weight:bold;
+  font-size:30px;
+  margin:30px 0;
+}
+.info{
+  text-align: start!important;
+  display:flex;
+  flex:wrap;
+  flex-direction: column;
+  align-items:start;
+}
+.hostingAgent{
+  color:var(--colorBlack);
+  font-weight: 600;
+  font-size:20px;
+}
+.hour{
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.eventInfo{
+margin:15px 0;
+}
+.eventBtn{
+  background-color:var(--colorGold);
+  color:var(--colorWhite);
+  padding:10px 20px; 
+  margin:25px 0;
+  font-size: 18px;
+  font-weight:bold;
+}
+.eventBtn:hover{
+  color:var(--colorGold);
+  background-color:var(--colorWhite);
+  border: 1px solid var(--colorGold);
+}/*
+
+/*******************/
+
+.p2ColumnsListing img{
+  max-height: 600px;
+}
+
+.listingCard  img.cardImg {
+    width: 250px;
+}
+
+.propertyDtlSec .propDet1{
+  background-color: #e0e0e1;
+}
+
+.propertyDtlSec .propDet2{
+  background-color: var(--colorAsh);
+  color: var(--colorWhite);
+}
+
+.propDet2 h2{
+  color: white!important;
+}
+
+.columnsCont2.propertyDtlSec{
+  margin:0;
+}
+
+.bannerContent2 h1{
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.listingtxt h2, .listingtList h2{
+  color: var(--colorGold);
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+.listingtxt h3{
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.listingtxt p, .bannerContent2{
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.listingtxt, .listingtList{
+  margin-bottom: 10%;
+}
+
+
+.propertyDtlItm{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 110px;
+}
+
+.listingIcon{
+  width: 100px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.p2ColumnsListing{
+  height: 100%;
+  width: 50%;
+  overflow: hidden;
+  max-height: 600px;
+}
+.columnsCont3.flexGap{
+  gap: 0;
+}
+
+@media (width <= 1000px) {
+  .bannerContent2 h1{
+    font-size: 2rem;
+    line-height: 1.2;
+
+  }
+  .columnsCont2 .p2ColumnstxtCont,.p2ColumnsListing.p2ColumnstxtCont {
+    width: 100%;
+    padding: 10% 5%;
+  }
+
+  .columnsCont2.propertyDtlSec, .flexCenter.columnsCont{
+    flex-wrap: wrap;
+  }
+  .p2ColumnsListing img{
+    width: 100%;
+  }
+
+  .p2Columns.propertyDtlItm{
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    height: 100%;
+    margin: 5px 0;
+  }
+
+  .flexWrap.propDetCont{
+    align-items: start;
+  }
+
+  .p2ColumnstxtCont,.p2ColumnsListing {
+    height: 100%;
+    width: 100%;
+  }
+
+  .propertyDtlItm{
+    width:45%;
+  }
+
+  .propertyDtlItm h3{
+    font-size: 1.05rem;
+  }
+
+
+  .listingtxt h2, .listingtList h2 {
+    font-size: 1.8rem;
+    line-height: 1.3;
+    margin-bottom:20px;
+  }
+
+}

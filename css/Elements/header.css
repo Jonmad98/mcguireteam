@@ -1,0 +1,103 @@
+header{
+    width:100%;
+    background-color: var(--colorBlack);
+    border-bottom: solid 5px var(--colorGold);
+}
+
+header img{
+    height:4.3rem;
+    width: auto;
+}
+
+.menu{
+    color: var(--colorWhite);
+    
+    height: 100%;
+}
+
+
+
+.menu-item{
+    padding: 2rem 1rem ;
+    font-weight: 600;
+    position: relative;
+    display: flex;
+    align-items: center;
+    /*flex-direction: ;*/
+}
+
+.menu-item:hover{
+    background-color: var(--colorGold);
+}
+.menu-item:hover .submenu{
+    display: block;
+    color: var(--colorWhite);
+    
+}
+.submenu{
+    padding: .5em;
+    background-color: var(--colorBlack);
+    position: absolute;
+    top: 4.7em;
+    left: -.1em;
+    display: none;
+    font-size: 18px;
+    z-index: 999;
+    width: max-content;
+}
+.submenu-item{
+    padding: .5em  ;
+}
+.submenu-item:hover{
+   background-color: var(--colorGold);
+}
+
+.phone-icon{
+    height: 1.4rem;
+    padding: 0 .5rem;
+}
+
+@media only screen and (max-width: 720px) and (min-width: 320px) {
+    .menu.flex{
+        flex-direction: column;
+        background-color: var(--colorBlack);
+        position: absolute;
+        right: 0;
+        top: 14%;
+        display: none;
+    }
+
+    .menu.active{
+        display: flex;
+        height: 20.5rem;
+    }
+    
+    .menu-item{
+        width: 100%;
+        padding: 1rem 0rem ;
+        font-weight: 600;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .menu-item:hover {
+        background-color: var(--colorWhite);
+        color: var(--colorGold);
+    }
+        
+    .menu-item:hover .submenu{
+        top:0;
+        left:-100%;
+        display: block;
+        background-color: var(--colorGold);
+        color: var(--colorWhite);
+    }
+
+    .menu-item:hover .submenu-item:hover{
+        display: block;
+        background-color: var(--colorWhite);
+        color: var(--colorGold);
+    }
+}

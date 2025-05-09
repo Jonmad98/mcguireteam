@@ -1,0 +1,173 @@
+ 
+  .carouselCont{
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .arrow.left, .arrow.right{
+    width: 50px;
+    background: #f7f7f7;
+    padding: 10px;
+    height: 50px;
+    border-radius: 100px;
+    border: solid 2px var(--colorGold);
+    fill: var(--colorGold);
+  }
+  
+  .arrowController{
+    position: absolute;
+    z-index: 9999;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .carrouselMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+  }
+  
+  .carousel {
+    --color-default-state: #ddd;
+    --color-active-state: var(--colorGold);
+    position: relative;
+    width: 80vw;
+    height: 80vmin;
+  }
+  
+  .carousel_track-container {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carousel_track {
+    position: relative;
+    width: inherit;
+    height: inherit;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .carousel_slide,
+  .carousel_image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .carousel_slide {
+    padding: 5% 12% 8%;
+    text-align: center;
+    transform: translateX(-100%);
+    transition: transform .3s ease-out;
+  }
+  
+  .carousel_slide.is-selected {
+    transform: translateX(0);
+  }
+  
+  .carousel_slide.is-selected ~ .carousel_slide {
+    transform: translateX(100%);
+  }
+  
+  .carousel_image {
+    z-index: -1;
+  }
+  
+  .carousel_image > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border: none;
+  }
+  
+  .carousel_title {
+    font-size: 40px;
+    color: #fff;
+  }
+  
+  .carousel_btn,
+  .carousel_dot {
+    z-index: 1;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .carousel_btn {
+    position: absolute;
+    top: 50%;
+    background-color: transparent;
+    transform: translateY(-50%);
+  }
+  
+  .carousel_btn:focus,
+  .carousel_dot:focus,
+  .carousel_btn:active,
+  .carousel_dot:active {
+    outline: none;
+  }
+  
+  .carousel_btn > * {
+    pointer-events: none;
+  }
+  
+  .carousel_btn svg {
+    fill: var(--color-default-state);
+    transform-origin: center;
+    transition: fill .2s;
+  }
+  
+  .carousel_btn:hover svg {
+    fill: var(--color-active-state);
+  }
+  
+  .jsPrev {
+    left: 10px;
+  }
+  
+  .jsNext {
+    right: 10px;
+  }
+  
+  .jsPrev svg {
+    transform: rotate(-90deg);
+  }
+  
+  .jsNext svg {
+    transform: rotate(90deg);
+  }
+  
+  .carousel_nav {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .carousel_dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--color-default-state);
+    transition: background-color .2s;
+  }
+  
+  .carousel_dot + .carousel_dot {
+    margin-left: 20px;
+  }
+  
+  .carousel_dot.is-selected {
+    background-color: var(--color-active-state);
+  }
+  

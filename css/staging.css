@@ -1,0 +1,11 @@
+.stagingHero{
+    background: url('../images/webpg/servies/Staging/staging_bg.webp') center no-repeat ;
+    background-size: 100%;
+}
+
+
+@media (width <= 700px) {
+    .stagingHero{
+        background-size:cover;
+    }
+}

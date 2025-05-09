@@ -1,0 +1,9 @@
+.listNorm{
+    margin: 20px auto;
+    
+}
+.listNorm-item{
+    list-style:inside;
+    margin-left:10px; ;
+}
+

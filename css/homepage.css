@@ -1,0 +1,284 @@
+/*Banner*/
+
+.homePagHero {
+    background:url('../images/webpg/Home_Page/Banner/20_Old_Ranch_DAY_(5)_L.webp') no-repeat center center ;
+    background-size: 100%;
+
+}
+
+/*CUF*/
+
+.homePageCUFImg{
+  background: url('../images/webpg/Home_Page/homePage_CUF.webp') no-repeat top right;
+  background-size: 100%;
+}
+
+/*Buttons*/
+.bannerBtnHP{
+    justify-content: center;
+    align-items: center;
+}
+
+.button1, .button2{
+    width: 33.33%;
+    border: none;
+}
+
+.bannerBtnHP button{
+    height: 100px;
+    width: 100%;
+    border: none;
+    background-color: var(--colorWhite);
+    cursor: pointer;
+}
+
+.bannerBtnHP button:hover{
+    border-bottom: solid 3px var(--colorGold)
+}
+
+.bannerBtnHP h2{
+    margin: 2px;
+}
+
+
+/*Photo Gallery*/
+.communitiesGalleryHP{
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.communitiesSubGalHP{
+    height: 100%;
+    display: flex;
+}
+
+.communitiescardContHP{
+    overflow: hidden;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.communitiescard1, .communitiescard2,.communitiescard3{
+    position: relative;
+    overflow: hidden;
+    text-align:center ;
+}
+
+.communitiescard1 img{
+    height: 438px;
+    width: 500px;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.communitiescard2 img{
+    height: 170px;
+    width: 500px;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.communitiescard3 img{
+    height: 260px;
+    width: 500px;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.communitiesSubGalHP figcaption{
+    display: flex;
+    font-size: .6rem;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    color: white;
+    left: 0px;
+    bottom: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.overlayHP:hover .communitiescard1, .overlayHP:hover .communitiescard2, .overlayHP:hover .communitiescard3{
+    cursor: pointer;
+    transform: scale(.5)!important;
+}
+
+.communitiescard1:hover~.communitiescard1,.communitiescard2:hover~.communitiescard2,.communitiescard3:hover~.communitiescard3{
+    font-weight: bold;
+    cursor: pointer;
+    transform: translate(262px);
+}
+
+/***************/
+.communitiescard1:hover .overlayHP,.communitiescard2:hover .overlayHP,
+.communitiescard3:hover .overlayHP{
+    opacity: 0;
+}
+
+.overlayHP{
+    display: flex;
+    transition: all .5s ease-in;
+    background-color: rgba(3, 3, 3, 0.6);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    z-index:99;
+}
+
+.communitiescard1 figure, .communitiescard1 .overlayHP{
+    height: 440px;
+    width: 210px;
+}
+
+.communitiescard2 figure, .communitiescard2 .overlayHP{
+    height: 170px;
+    width: 210px;
+}
+
+.communitiescard3 figure, .communitiescard3 .overlayHP{
+    height: 260px;
+    width: 210px;
+}
+
+.communityNameHP{
+    font-size: 28px;
+    width: 80%;
+}
+
+
+
+
+
+/*Lori's Section*/
+
+.homeLoriSection{
+    display: flex;
+}
+.loriImg{
+    align-items: center;
+    justify-content: center!important;
+}
+.loriImg,.loriTextIntro{
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loriTextIntro h2{
+    margin-bottom: 20px;
+}
+.lorTextContentHP{
+    flex-direction: column;
+}
+.loriImg img{
+    width: 60%;
+}
+
+.LoriBtnAppt{
+    text-decoration: none;
+    color: var(--colorGold);
+    font-weight: bold;
+    font-size: 20px;
+    border: var(--colorGold) solid 1px;
+    background-color: transparent;
+    width: fit-content;
+    padding: 15px 30px ;
+}
+.LoriBtnApptCont{
+    margin: 60px 0;
+}
+.LoriBtnAppt:hover{
+    color: var(--colorWhite);
+    background-color: var(--colorGold);
+    
+}
+
+
+/*Testimonials*/
+
+.testimonialsHP{
+    background-color: var(--colorGold)!important;
+
+}
+
+
+/*Meet Our Team*/
+
+.MOT_HP{
+    padding: 30px 5%;
+    background-color: var(--colorAsh);
+    color: var(--colorWhite);
+}
+.metaslider.ms-theme-clarity .flexslider .flex-control-nav li a {
+        background: var(--colorGold)!important;
+}
+@media (width <= 700px) {
+    .homePagHero{
+        background-size:cover;
+    }
+
+    /*Buttons*/
+    .bannerBtnHP{
+        flex-direction: column;
+    }
+    .button1, .button2{
+        width: 100%;
+    }
+    /*Photo Gallery*/
+    .communitiesSubGalHP{
+        width: 345px;
+        height: 170px;
+    }
+
+    .communitiescardContHP{
+        flex-direction: row;
+    }
+    
+    .communitiescard1 figure, .communitiescard1 .overlayHP{
+        height: 170px;
+        width: 345px;
+    }
+    .communitiescard2 figure, .communitiescard2 .overlayHP, .communitiescard3 figure, .communitiescard3 .overlayHP{
+        
+        max-height: 170px;
+        max-width: 170px;
+    }
+
+
+    /*Lori's Section*/
+    .homeLoriSection{
+        flex-direction: column-reverse;
+
+    }
+
+    .loriImg,.loriTextIntro{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .loriTextIntro h2{
+        text-align: center;
+    }
+    .LoriBtnApptCont{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px 0;
+    }
+    .loriTextIntro p {
+    text-align: justify;
+}
+}
+

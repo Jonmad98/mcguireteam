@@ -1,0 +1,41 @@
+.whyJoinMTCont{
+    width: 100%;
+    padding: 20px;;
+
+}
+.whyJoinMT{
+    width: 400px;
+}
+.whyJoinMT img{
+    width: 400px;
+}
+.joth2{
+    margin:20px;
+    font-weight: bold;
+    text-align:center ;
+    }
+.accordionContainer{
+    display: flex;
+    justify-content: center;
+}
+
+@media (width <= 700px) {
+    .content .whyJoinMTCont{
+        flex-direction: column;
+    }
+    .content .details-wrapper{
+        max-width: 90% !important;;
+    }
+    .whyJoinMT{
+    width: 100%;
+}
+    .whyJoinMT img{
+    width: 100%;
+}
+}
+
+
+
+
+
+

@@ -1,0 +1,240 @@
+
+.conciergeHero {
+  background:url('../images/webpg/servies/services\ background.webp') no-repeat center right;
+  background-size: 100%;
+}
+
+.conciergeCUFImg{
+  background: url('../images/webpg/servies/services/concierge_CUF.webp') no-repeat center right;
+  background-size: 100%;
+}
+
+.houseRenewalCUFImg{
+  background: url('../images/webpg/servies/houseRepairs/houseRenewal_CUF.webp') no-repeat center right;
+  background-size: 100%;
+}
+
+.conciergeStagingCUFImg{
+  background: url('../images/webpg/servies/Staging/conciergeStaging_CUF.webp') no-repeat center right;
+  background-size: 100%;
+}
+
+ /*************************************************/
+
+
+ .subcontentServices{
+  display: flex;
+  align-items: center;
+ }
+ .contentServices h2{
+  font-size: 35px;
+  margin-bottom: 4%;
+  color: var(--colorGold);
+  font-weight: 800;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+ }
+
+
+
+
+
+ /*Services********************************/
+ .services{
+  display: flex;
+  flex-direction: column;
+  background-image: url('../images/webpg/servies/Testimonial\ Search\ Result.jpg');
+  /*
+  background-color: var(--colorGold);
+  */
+  margin: 0;
+  background-size: cover;
+  align-items: center; }
+
+  .servicesBGR{
+    display: flex;
+    padding: 3% 0;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(247,247,247,.7)
+  }
+
+ .services h3{
+  font-size: 35px;
+  margin-bottom: 2%;
+  color: var(--colorGold);
+  font-weight: bolder;
+  line-height: 1.2;
+  text-align: center;
+ }
+
+ .cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 80%;
+ }
+
+ .card{
+  display: flex;
+  flex: 0 0 40%;
+  background-color: var(--colorWhite);
+  
+  margin: .75%;
+  padding: 12px;
+  border: solid 3px var(--colorWhite);
+  align-content: flex-start;
+  box-shadow: 8px 8px 0px 0px rgba(0,0,0,.05);
+  flex-wrap: nowrap;
+
+ }
+
+
+
+ .card figure{
+  display: flex;
+  justify-content: center;
+  max-width: 30%;
+  margin: 5%;
+ }
+
+  .card svg{
+   max-width: 80%;
+   padding: 2px;
+   fill: #bb9447;
+  }
+
+  .card div{
+    width: 100%;
+  }
+ .card h4{
+  color: #bb9447;
+  margin-bottom: 10px ;
+  font-weight:900;
+  font-size: 18px;
+ }
+
+ .card p{
+  font-size: 15px;
+  color: #bb9447;
+ }
+
+ .card:hover, .card:hover p, .card:hover svg, .card:hover h4{
+  background-color: var(--colorGold);
+  color: var(--colorWhite);
+  scale: 1.03;
+  fill: var(--colorWhite) ;
+  transition: .15s;
+ }
+
+
+ /***********************************************************/
+ .diamondBGR{
+  background-color: #bb9447;
+  padding: 40px;
+ }
+ .FunFacts{
+  height: 100%;
+  padding: 3% 4%;
+  margin: 0 20% 0 20%;
+  background-color: rgba(254,254,254,.95)
+ }
+
+ .FunFacts h3{
+  
+  font-size: 35px;
+  color: var(--colorGold);
+  font-weight: 800;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+ }
+
+ .FunFacts p{
+  max-width: 60%;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  font-size: 20px;
+ }
+
+ .ff-list{
+  margin-left: 10%;
+  line-height: 20px;
+ }
+
+ .ff-item{
+  list-style: disc;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+ul li::before{
+  content: normal;
+  color: var(--colorGold);
+}
+ strong{
+  font-weight: bold;
+
+ }
+
+ @media (width <= 700px) {
+  .conciergeHero {
+    background-size:cover;
+  }
+
+  .contentServices{
+    margin: 10% 5%;
+  }
+
+  .contentServices h2{
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .subcontentServices{
+    flex-direction: column;
+  }
+
+
+
+  .subcontentServices p{
+    width: 90%;
+    text-align: justify;
+    font-size: 14px;
+    margin: 7% 0;
+  }
+
+  .servicesBGR h3, .FunFacts h3{
+    margin: 10px 0 20px 0;
+    font-size: 20px;
+  }
+
+  .cards{
+    flex-direction: column;
+  }
+  .card{
+    flex-direction: column;
+  }
+  .card figure{
+    max-width: 60%;
+  }
+  .card h4, .subContainer p{
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .card p,.ff-item{
+    font-size: 14px;
+  }
+
+  .FunFacts{
+    margin: 0;
+    
+  }
+
+ 
+ 

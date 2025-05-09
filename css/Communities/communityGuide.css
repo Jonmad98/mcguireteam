@@ -1,0 +1,117 @@
+/* Ensure compatibility with Chrome, Edge, and Safari */
+
+/* Gallery container */
+.communitiesGallery {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Community card */
+
+.communitiescardCont{
+    display:flex;
+}
+
+.communityArticle{
+    padding:0 5%;
+}
+.communitiescard {
+    position: relative;
+    height: 250px;
+    width: 375px;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+/* Community card image */
+.communitiescard img {
+    height: 250px;
+    width: 375px;
+    object-fit: cover;
+}
+
+/* Community card caption */
+.communitiescard figcaption {
+    text-align: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Hover effect */
+.overlay:hover .communitiescard {
+    cursor: pointer;
+    transform: scale(1.15) !important;
+}
+
+/* Community card caption style */
+.communitiescard figcaption {
+    display: flex;
+    font-size: 0.6rem;
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    align-items: center;
+    color: white;
+    left: 0;
+    bottom: 0;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/* Hide caption on hover */
+.communitiescard:hover figcaption {
+    display: none;
+}
+
+/* Bold and translate effect on hover */
+.communitiescard:hover ~ .communitiescard {
+    font-weight: bold;
+    cursor: pointer;
+    transform: translate(262px);
+}
+
+/* Overlay transition */
+.communitiescard:hover .overlay {
+    opacity: 0;
+}
+
+/* Overlay style */
+.overlay {
+    text-align: center;
+    transition: all 0.5s ease-in;
+    background-color: rgba(3, 3, 3, 0.5);
+    position: absolute;
+    height: 250px;
+    width: 375px;
+    bottom: 0;
+    display:flex;
+    justify-content:center;
+    z-index:99;
+}
+
+/* Community name style */
+.communityName {
+    font-size: 30px;
+    text-align:center;
+}
+
+
+.comCarrousel{
+    padding: 30px;
+}
+
+@media (width <= 700px) {
+    .communityArticle{
+        flex-direction: column;
+    }
+    .communityArticleDiv{
+        width: 100%;
+    }
+}
+
+

@@ -1,0 +1,78 @@
+
+
+.homeValHero{
+    background:url('../images/webpg/Home_Valuation/HomeValuationbg.webp') no-repeat center center;
+    background-size: 100%
+}
+
+.homeValuationCUFImg{
+  background: url('../images/webpg/Home_Valuation/homeValuation_CUF.webp') no-repeat center right;
+  background-size: 100%;
+}
+
+.ohServices{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+   
+}
+
+
+.homeValSVG{
+    margin: 10px;
+    width: 150px;
+}
+
+.stagingServices{
+    min-width: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px 0;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 30%;
+    border: solid 2px var(--colorGold);
+    margin: 10px;
+    height: 700px;
+}
+
+.stagingServices-item-text{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+}
+.stagingServices-item-text h3{
+    text-align: center;
+    margin: 15px 0;
+    color: var(--colorGold);
+    font-weight: bold;
+    height: 40px;
+}
+.stagingServices-item-text p{
+    font-size: 15px;
+    line-height: 1.8rem;
+}
+
+
+
+@media (width <= 700px) {
+    .homeValHero{
+        background-size:cover;
+    }
+
+
+    .bannerBtn div{
+        padding:0 10%;
+        min-width: 350px;
+        max-width: 90%;
+    }
+    .ohServices {
+        flex-direction: column;
+    }
+
+    .stagingServices{
+        max-width: 90%;
+    }
+}

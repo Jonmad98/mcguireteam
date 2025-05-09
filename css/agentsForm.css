@@ -1,0 +1,28 @@
+.agForm{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-content: flex-start!important;
+    justify-content: center;
+}
+
+.agImgForm{
+    overflow:hidden;
+}
+
+.agImgForm img{
+    width:600px;
+    height:600px;
+}
+
+.agFormCont{
+    margin-top:30px;
+}
+
+
+@media (width <= 900px) {
+    .agImgForm img{
+        width:100%;
+        height:100%;
+    }
+}

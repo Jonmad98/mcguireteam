@@ -1,0 +1,145 @@
+.JOTHero {
+    background:url('../../images/webpg/Join_Our_Team/jotBanner_bg.webp') no-repeat center right;
+    background-size: 100%;
+  }
+
+.joth2{
+    color: var(--colorGold);
+}
+.jotContainer{
+    margin-top: 40px;
+    justify-content:space-between ;
+}
+
+.jotImg{
+    width: 100%;
+    padding-right: 5%;
+    }
+
+.jotImg2{
+    width: 100%;
+    padding-left: 5%;
+    }
+
+.jotContainer2{
+    max-width: 91.5%;
+    margin: 40px 0;
+}
+
+.jotPositionCont{
+    display: flex;
+}
+
+.jotCard img{
+    width: 100%;
+    height: 214px;
+    object-fit: cover;
+}
+
+.jotCardCont{
+    max-width: 400px;
+    margin-top: 30px;
+}
+
+.jotCard{
+    border: 1px solid var(--colorGold);
+}
+
+
+
+
+.jotCard-Details{
+    padding: 16px 12px 8px 12px;
+}
+
+.jotPosName{
+    font-weight: 600;
+    margin: 16px 0;
+    color: var(--colorGold);
+    width: 100%;
+}
+
+.jotCard-Details p{
+    font-size: 14px;
+    line-height: 150%;
+}
+.jotCardBtn{
+    display: flex;
+    height:90px;
+    justify-content: center;
+}   
+
+.jotCardBtn a{
+    margin: 10% 10px 3% 10px;
+    
+}
+
+.jotCardBtn-Item{
+    border: none;
+    padding: 12px 24px;
+    font-weight: 600;
+    color: var(--colorWhite);
+    background-color: var(--colorGold);
+    font-size: 16px;
+}
+.jotCardBtn-Item:hover, .jotCardBtn-Item:focus{
+    background-color: transparent;
+    color: var(--colorGold);
+    border: 2px solid var(--colorGold);
+}
+
+@media (width <= 700px) {
+    .JOTHero {
+        background-size:cover;
+        background-position: left;
+    }
+
+    .matterporth2{
+        font-size: 1.5em;
+    }
+    .jotContainer{
+        flex-direction: column-reverse;
+        margin-top: 20px;
+    }
+
+    .jotContainer2{
+        margin: 20px auto;
+    }
+
+    .jotImgCont{
+        margin:20px 0 ;
+    }
+    .jotImgCont, .jotContainer p, .jotContainer2{
+        width: 100%;
+    }
+
+    .jotCardCont{
+        max-width: 90%;
+    }
+
+    .jotPosName{
+        font-size: 24px;
+        text-align: center;
+    }
+
+
+    .jotCard-Details p{
+        font-size: 16px;
+    }
+    .jotCardBtn{
+        flex-direction: column;
+        align-items: center;
+        height: 180px;
+    }
+    .jotCardBtn-Item{
+        font-size: 16px;
+        padding: 18px 36px;
+        font-weight: 600;
+        color: var(--colorWhite);
+        background-color: var(--colorGold);
+    }
+    .jotImg, .jotImg2{
+        padding-right: 0%;
+    }
+
+}

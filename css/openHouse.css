@@ -1,0 +1,86 @@
+
+
+.ohHero{
+    background:url('../images/webpg/servies/Open_House_bg.webp') no-repeat center center ;
+    background-size: 100%;
+}
+
+.ohServices2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 1;
+    max-width:85%;
+}
+
+
+.stagingServices{
+    min-width: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px 0;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 30%;
+    border: solid 2px var(--colorGold);
+    margin: 20px;
+    height: 700px;
+}
+
+.ohSVG, .ohSVG img{
+    margin: 10px;
+    width: 120px;
+    height:120px;
+
+}
+
+.stagingServices-item-text{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+}
+.stagingServices-item-text h3{
+    text-align: center;
+    margin: 15px 0;
+    color: var(--colorGold);
+    font-weight: bold;
+    height: 40px;
+}
+.stagingServices-item-text p{
+    font-size: 15px;
+    line-height: 1.8rem;
+}
+
+.ohItemContainer{
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto 30px;
+   }
+
+.ServiceAgent{
+    display: flex;
+}
+
+.ohSeviceAgent-Photo{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+@media (width <= 1000px) {
+    .ohHero{
+        background-size:cover;
+    }
+
+    .ohServices{
+
+        flex-direction: column;
+    }
+
+    .stagingServices{
+        flex-wrap: nowrap;
+    }
+    
+}

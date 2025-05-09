@@ -1,0 +1,126 @@
+.donationSPHero {
+    background:url('https://mcguireteam.com/wp-content/uploads/2024/09/SP_Banner.webp') no-repeat center right;
+    background-size: cover;
+  }
+
+.donationToyfTotHero {
+    background:url('https://mcguireteam.com/wp-content/uploads/2024/11/a-californian-real-estate-company-doing-a-toy-dona.jpg') no-repeat center right;
+    background-size: cover;
+  }
+
+.donationDrive .hero2{
+    height: 450px;
+}
+
+.donationDrive .bannerContent2{
+    width: 100%;
+    max-width: none;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+}
+
+.bannertxt{
+    background-color: rgba(11, 13, 14, .9);
+    padding:1rem;
+}
+
+.bannertxt h3{
+    padding: 10px 0;
+    font-family: 'Oxygen';
+    font-size: 1.2rem;
+    font-weight: nor;
+}
+.bannertxt em{
+    font-style: italic;
+}
+
+.donationDrive .bannerContent2 h1{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+
+.donationDrive h2{
+    margin-bottom: 1rem;
+
+}
+
+.donationDrive section{
+    padding: 30px 5%;
+
+}
+
+.donation_itemList{
+    margin: 20px 0;
+}
+
+.donation_itemListCont article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 300px;
+    border: solid 2px var(--colorGold);
+    border-radius: 17px;
+    text-align: center;
+    
+}
+
+.donation_itemListCont article img{
+    width: 295px;
+    margin-top: 2px;
+    border-radius:  13px;
+}
+.donation_itemListImg{
+    height: 200px;
+    overflow: hidden;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    border-radius: 15px 15px 0 0;
+
+}
+
+.donation_itemListCont article p{
+    padding: .8rem;
+}
+
+.dropOff_InfoCont,.dropOff_InfoCont2 {
+    padding: 2rem;
+    border: solid 2px var(--colorGold);
+    border-radius: 17px;
+    background-color: #fff;
+}
+
+.dropOff_Info{
+    width: 30%;
+    min-width: 300px;
+}
+
+.donationCU p{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+
+
+
+/***********************************************/
+.dropOff_InfoCont2{
+    height:400px;
+}
+.dropOff_Info.flex{
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.dropOff_svgcont{
+    width: 30px;
+    margin:0 10px 0 0;
+}

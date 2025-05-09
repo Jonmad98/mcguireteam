@@ -1,0 +1,133 @@
+.MOTHero{
+    background:url('../images/webpg/Meet_Our_Team/Meet_Our_Team_BG.webp') no-repeat center center ;
+    background-size: 100%
+}
+
+.agentCardMOT{
+    min-height: 452px;
+}
+
+.agentContMOT{
+    width: 340px;
+    height:420px;
+    padding: 5px;
+    background-color: #ffffff;
+    min-height: 326px;
+}
+
+.agentImgMOT{
+    width: 100%;
+}
+.agentContMOT h3{
+    margin-top: 10px;
+    font-size: 1.4em;
+}
+
+.agentContMOT h4,.agentContMOT p{
+    margin-top: 5px;
+}
+
+.agentContMOT p{
+    font-size: .8em;
+    font-weight: lighter;
+}
+
+
+.agentContIconMOT, .salesAgentContIconMOT{
+    margin: 10px 0 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.agentContIconMOT a,.salesAgentContIconMOT a {
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+.agentContIconMOT a:hover{
+    border: 1px solid var(--colorGold);
+    background-color: var(--colorGold);
+}
+
+.agentContIconMOT a svg{
+    fill:var(--colorGold);
+    stroke: var(--colorGold);
+    height: 40px;
+    padding: 7px;
+}
+
+
+.agentContIconMOT a svg:hover{
+    fill:var(--colorWhite);
+    height: 40px;
+    padding: 7px;
+    stroke: var(--colorWhite)
+}
+
+.agentBtnMOT{
+    width: 340px;
+    background-color: var(--colorGold);
+    border: 1px solid var(--colorGold);
+    color: white;
+    font-weight: bold;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.agentBtnMOT:hover{
+    background-color: transparent;
+    color: var(--colorGold);
+}
+
+.agentContMOT  h5{
+    margin-top: 5px;
+    font-size: .6rem;
+    font-weight: 200;
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+
+/**********Sales Agent*********/
+.salesAgentContIconMOT a svg{
+    fill:var(--colorBlack);
+    stroke: var(--colorBlack);
+    height: 40px;
+    padding: 7px;
+}
+
+.salesAgentContIconMOT a:hover{
+    border: 1px solid var(--colorBlack);
+    background-color: var(--colorBlack);
+}
+
+.salesAgentContIconMOT a svg:hover{
+    fill:var(--colorWhite);
+    height: 40px;
+    padding: 7px;
+    stroke: var(--colorWhite)
+}
+
+.salesAgentBtnMOT{
+    width: 100%;
+    background-color: var(--colorBlack);
+    border: 1px solid var(--colorBlack);
+    color: white;
+    font-weight: bold;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.salesAgentBtnMOT:hover{
+    background-color: white;
+    color: var(--colorBlack);
+    cursor: pointer;
+}
+
+@media (width <= 700px){
+    .MOTHero{
+        background-size: auto;
+    }
+}

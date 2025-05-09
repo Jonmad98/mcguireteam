@@ -1,0 +1,89 @@
+.footer{
+    background-color: var(--colorBlack);
+    color: var(--colorWhite);
+    padding: 4rem 4rem 8rem 4rem;
+}
+
+.footer-section{
+    width: 15.5rem;
+}
+.remaxSelectedOne{
+    width: 15rem;
+}
+
+.footer-McGuireTeam{
+    margin: 2rem;
+    
+    letter-spacing: 3px;
+}
+
+.footer-rights{
+    font-size: 12px;
+    font-weight: lighter;
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+}
+
+.icon{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0 .2rem;
+    
+}
+
+.icon a svg{
+    fill:var(--colorWhite);
+    stroke: var(--colorWhite);
+}
+.icon a svg:hover{
+    fill:var(--colorGold);
+    stroke: var(--colorGold);
+}
+.footer-title{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 3rem 0;
+}
+
+.footer-item{
+    line-height: 1.5rem;
+    font-size: 15px;
+}
+ 
+.map{
+    margin-top: 3rem;
+}
+
+.footerMapContainer{
+    width: 333px;
+}
+
+.footer-item:hover a{
+    color: var(--colorGold);
+}
+
+
+/************************************************/
+
+@media only screen and (max-width: 680px) and (min-width: 320px) {
+    .footer{
+        padding:1rem;   
+        min-height: 1200px;
+    }
+
+    .footer .container{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .footer-section{
+        margin-top: 2rem;
+    }
+    .footer-title{
+        line-height: 3rem;
+    }
+    .footerMapContainer{
+        width: 200px;
+    }
+}

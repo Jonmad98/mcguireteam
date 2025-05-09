@@ -1,0 +1,66 @@
+.curbHero{
+    background: url('../images/webpg/servies/curbAppeal/Curb+Appeal.jpg') center no-repeat ;
+    background-size: 100%;
+}
+
+/********************Main**********************/
+
+.curbContent{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.curbContent p{
+    width: 80%;
+}
+.curbservice{
+    font-size: 16px;
+}
+
+.curbItemContainer{
+ width: 83%;
+ margin: 20px auto 30px;
+ gap:20px;
+}
+
+.curbArts p{
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.curbSVG{
+    margin: 10px;
+    width: 80px;
+    display: block;
+}
+
+/****************Line**************************/
+.curbLineSeparation{
+    border: solid 1px var(--colorGold);
+    
+    width: 80%;
+    margin: 10% 10% 5% 10% ;
+
+}
+@media (width <= 700px) {
+    .curbHero{
+    background-size:cover;
+    }
+    .curbItemContainer{
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .p2Columns{
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 100%;
+        margin: 20px 0;
+        align-items: center;
+    }
+
+    .curbArts p{
+        font-size: 14px;
+    }
+}

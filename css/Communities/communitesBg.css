@@ -1,0 +1,68 @@
+.communityLNHero {
+    background:url('../../images/webpg/communityGuide/Laguna_Niguel_bg.webp') no-repeat center right!important;
+    background-size: 100%;
+  }
+
+.communityAVHero {
+    background:url('../../images/webpg/communityGuide/Aliso_Viejo_bg.webp') no-repeat center right;
+    background-size: 100%;
+  }
+
+.communityLBHero {
+    background:url('../../images/webpg/communityGuide/Laguna_Beach_bg.webp') no-repeat center right;
+    background-size: 100%;
+  }
+
+.communityDPHero {
+    background:url('../../images/webpg/communityGuide/Dana_Point_bg.webp') no-repeat center right;
+    background-size: 100%;
+  }
+
+.communityIrvHero {
+    background:url('../../images/webpg/communityGuide/Irvine_bg.webp') no-repeat center center;
+    background-size: 100%;
+  }
+
+.communitySJCHero {
+    background:url('../../images/webpg/communityGuide/San_Juan_Capistrano_bg.webp') no-repeat center center;
+    background-size: 100%;
+  }
+
+  .communityLHHero {
+    background:url('../../images/webpg/communityGuide/Laguna_Hills_bg.webp') no-repeat center center;
+    background-size: 100%;
+  }
+
+  .communityNBHero {
+    background:url('../../images/webpg/communityGuide/Newport_Beach_bg.webp') no-repeat center center;
+    background-size: 100%;
+  }
+  .ohHBHero {
+    background:url('../../images/webpg/communityGuide/Huntington_Beach_bg.webp') no-repeat center center;
+    background-size: 100%;
+  }
+  .ohLRHero {
+    background:url('../../images/webpg/communityGuide/Ladera_Ranch_bg.webp') no-repeat center center;
+    background-size: 100%;
+  }
+
+  .ohMVHero{
+    background:url('../../images/webpg/communityGuide/Mission_Viejo_bg.webp') no-repeat center center;
+    background-size: 100%;
+  }
+
+  .ohMVHero{
+    background:url('../../images/webpg/communityGuide/Mission_Viejo_bg.webp') no-repeat center center;
+    background-size: 100%;
+  }
+  
+  .ohSCHero{
+    background:url('../../images/webpg/communityGuide/San_Clemente_bg.webp') no-repeat center center;
+    background-size: 100%;
+  }
+
+  @media (width <= 700px) {
+    .communityLNHero,.communityAVHero,.communityLBHero,.communityDPHero,.communityIrvHero,.communitySJCHero,.communityLHHero,.communityNBHero,.ohHBHero,.ohLRHero,.ohMVHero,.ohSCHero {
+      background-size:cover;
+    }
+}

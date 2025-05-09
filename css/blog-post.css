@@ -1,0 +1,350 @@
+/************************Bannner************************/
+
+.post-template-default section.container.banner-principal{
+    margin: 0 auto;
+    max-width: 50rem;
+    padding: 3rem 1rem 0 1rem;
+    font-family: "Montserrat", sans-serif;
+    color: #2b2d31;
+    letter-spacing: 1px;
+    
+}
+
+.blogTags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1.25rem;
+}
+
+.blogTags li{
+    padding: .25rem 0.625rem;
+    border: 1px solid ;
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: 0.75rem;
+    
+}
+
+.blogTags li a{
+    letter-spacing: 0.1rem;
+    line-height: 1rem;
+}
+
+.blogTags li:first-child{
+    background-color: var(--colorGold);
+    border-color: transparent;
+}
+
+.blogTags li:first-child a{
+    color: var(--colorWhite);
+}
+
+.post-template-default section.container.banner-principal .texto-banner {
+    display: flex;
+    top: 150px;
+    width: 100%;
+}
+
+.post-template-default section.container.banner-principal .texto-banner h1{
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+}
+
+.blogInfo{
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.blogInfo li{
+    display: flex;
+    align-items: center;
+    color: #6b7280;
+    letter-spacing: 0.1em;
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.blogInfo li svg{
+    margin-right: 8px;
+}
+
+
+.post-template-default section.container.banner-principal .banner{
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    margin-bottom: 2.5rem;
+}
+
+
+/************************Blog Content***********************/
+
+.blog hr {
+    border: none;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: var(--colorGold);
+    border-radius: 99px;
+    margin: 2.5rem auto;
+}
+
+.blog hr::after {
+    content: '';
+    height: 1px;
+    width: 6rem;
+    background-color: var(--colorGold);
+    position: absolute;
+    margin: 0.25rem 1rem;
+}
+
+.blog hr::before {
+    content: '';
+    height: 1px;
+    width: 6rem;
+    background-color: var(--colorGold);
+    position: absolute;
+    margin: 0.25rem -6.5rem;
+}
+
+.post-template-default section.blog div.container{
+    margin: 0 auto;
+    max-width: 50rem;
+    padding: 0em 1rem 6rem 1rem;
+    font-family: "Montserrat", sans-serif;
+    color: #2b2d31;
+    letter-spacing: 1px;
+}
+/***************************blog cards****************************/
+
+.blogCard{
+    background-color: #fff;
+    padding: 1.5rem;
+    border-left: 4px solid;
+    border-color: var(--colorGold);
+    font-family: "Cormorant Garamond", serif;
+}
+
+.blogCard2{
+    background-color: #fff;
+    padding: 1.5rem;
+    border-left: 4px solid;
+    border-color: var(--colorBlack);
+    font-family: "Cormorant Garamond", serif;
+}
+
+
+.article-content .blogCardWhite{
+    background-color: #fff;
+    padding: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 0.5rem;
+    box-shadow: 0px 2px 2px 0 rgb(0 0 0 / 0.05);
+}
+
+
+.article-content .blogCardWhite h3{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+/*******************************************************/
+.hentry.category-blog .article-content h2, .hentry.category-blog .article-content h3 {
+    display: block;
+    color: var(--colorBlack)!important;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-family: "Cormorant Garamond", serif;
+}
+
+.hentry.category-blog .article-content h2 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.hentry.category-blog .article-content h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.post-template-default section.blog .container .listado-articulos .article.single .article-content p{
+    margin-bottom:16px;
+}
+
+.hentry.category-blog .article-content ul, .hentry.category-blog .article-content ol {
+    margin-bottom: 2rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.hentry.category-blog .article-content ul li.list15, .hentry.category-blog .article-content ol li.list15{
+    margin-bottom: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    color: #474C58;
+}
+
+.hentry.category-blog .article-content ul li strong, .hentry.category-blog .article-content ol li strong{
+    font-weight: 500;
+    color: var(--colorBlack);
+}
+
+.hentry.category-blog .article-content ul li::marker{
+    color: var(--colorGold);
+    font-size: 0.8rem;
+}
+
+.hentry.category-blog .article-content h2::after {
+    width: 4rem;
+    content: '';
+    background-color: var(--colorGold);
+    height: 2px;
+    left: 0px;
+    position: absolute;
+    bottom: 0px;
+}
+
+section.blog div.container .wp-block-table td, section.blog div.container .wp-block-table thead , section.blog div.container .wp-block-table thead th{
+    border:0;
+}
+
+section.blog div.container .wp-block-table thead th{
+    font-size: 1.25rem;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+}
+
+section.blog div.container .wp-block-table tbody td{
+    padding: 1rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    letter-spacing: 0px;
+    font-weight: 500;
+}
+
+.blogTable{
+    background: white;
+    padding: 1.5rem;
+    
+}
+
+.tableg2 tbody>tr>:nth-child(2), .tableg2 theady>tr>:nth-child(2){ 
+    color: var(--colorGold);
+}
+
+section.blog div.container .wp-block-table thead{
+    border-bottom: 1px solid #c9a04f2c !important;
+}
+
+.blog .listado-articulos figure.wp-block-image{
+    margin-bottom: 2rem;
+}
+
+.post-template-default section.blog .container .listado-articulos .article.single{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.post-template-default section.blog .container .listado-articulos .article.single .article-content em{
+    font-style:italic;
+}
+
+.post-template-default section.blog .container .listado-articulos .article.single .article-content p a:link{
+    color:blue;
+    text-decoration: underline;
+}
+
+.post-template-default section.blog .container .listado-articulos .article.single .article-content p a:visited{
+    color:purple;
+    text-decoration: underline;
+}
+
+.post-template-default section.blog .container .listado-articulos .article.single .article-content figure{
+    display:flex;
+    justify-content:center;
+    margin:20px 0;
+    box-shadow: 0px 2px 2px 0 rgb(0 0 0 / 0.05);
+}
+
+.post-template-default section.blog .container .listado-articulos .article.single .article-content figure.wp-block-image{
+    margin-bottom: 2rem;
+}
+
+figure .blogTable tbody td {
+    border-bottom: 1px solid #f3f4f6!important;
+}
+
+figure .blogTable tbody td:last-child {
+    border:none;
+}
+    
+
+
+
+.hentry.category-blog .article-content ul.wp-block-list {
+    list-style: disc!important;
+    margin-left: 30px;
+}
+
+.post-template-default section.container.banner-principal .overlay-banner {
+    height: 30px;
+}
+
+.post-template-default.postid-1015 section.container.banner-principal {
+    display:none;
+}
+
+article#post-1015 {
+    display: none;
+}
+
+@media (width <= 700px) {
+    .post-template-default section.container.banner-principal .banner {
+        height: 250px;
+    }
+    .post-template-default section.container.banner-principal .overlay-banner {
+        display: none;
+    }
+    
+    .post-template-default section.container.banner-principal .texto-banner h1 {
+        display:flex;
+        font-size: 1.5rem;
+    }
+    
+    .hentry.category-blog .article-content h2 {
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+        margin-bottom: 1rem;
+    }
+    
+    .hentry.category-blog .article-content h2:last-child {
+        margin-bottom: 1.5rem;
+    }
+
+    .hentry.category-blog .article-content h3 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    
+    .hentry.category-blog .article-content h3 p:last-child {
+        margin-bottom: 1.5rem;
+    }
+    
+    section.blog div.container .wp-block-table tbody td {
+    padding: 0.75rem;
+    font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,127 @@
+.btn1Container{
+    margin: 20px 10px;
+    height: 25px;
+}
+.btn1{
+    border: none;
+    padding: 12px 24px;
+    font-weight: 600;
+    color: var(--colorWhite);
+    background-color: var(--colorGold);
+    font-size: 18px;
+}
+.btn1:hover, .btn1:focus{
+    background-color: transparent;
+    color: var(--colorGold);
+    border: 2px solid var(--colorGold);
+}
+
+
+
+.btn2Container{
+    margin: 30px 10px;
+    height: 40px;
+}
+.btn2{
+    border: none;
+    padding: 20px 20px;
+    font-weight: 600;
+    color: var(--colorWhite);
+    background-color: var(--colorBlack);
+    font-size: 18px;
+}
+.btn2:hover, .btn21:focus{
+    background-color: transparent;
+    color: var(--colorBlack);
+    border: 2px solid var(--colorAsh);
+    cursor: pointer;
+}
+
+.btn3{
+    padding: 15px 45px;
+    background: transparent;
+    border: 2px solid var(--colorGold);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--colorGold);
+}
+
+.btn3:hover{
+    background: var(--colorGold);
+    color: var(--colorWhite);
+    cursor: pointer;
+}
+
+
+.btn4{
+    padding: 15px 45px;
+    background: transparent;
+    border: 2px solid var(--colorWhite);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--colorWhite);
+}
+
+.btn4:hover{
+    background: var(--colorWhite);
+    color: var(--colorBlack);
+    cursor: pointer;
+}
+
+
+/*************Agent Card Btn**************/
+.btn5{
+    padding: 12px 24px;
+    background: transparent;
+    border: 2px solid var(--colorGold);
+    font-size: .8rem;
+    font-weight: 600;
+    color: var(--colorGold);
+}
+
+.btn5:hover{
+    background: var(--colorGold);
+    color: var(--colorWhite);
+    cursor: pointer;
+}
+
+/*Agents WebPage Buttons*/
+
+.agentBtn{
+    padding:  2% 0;
+}
+
+.agentBtn button{
+    background-color: transparent;
+    color: var(--colorWhite);
+    padding: 20px 16px;
+    margin:2%;
+    font-size: 20px;
+    border: 2px solid var(--colorWhite);
+    min-width: 120px;
+}
+
+.agentBtn button:hover{
+    color: var(--colorGold);
+    border: 2px solid var(--colorGold);
+    cursor: pointer;
+}
+
+
+
+@media (width <= 700px) {
+    .agentBtn{
+        padding:  2% 5%;
+    }
+
+    .agentBtn button{
+        margin:2% 4% 2% 0;
+    }
+    
+    .btn3Containter,.btn4Containter {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+}
